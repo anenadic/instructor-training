@@ -4,14 +4,14 @@
 
 ## Setting the workshop environment
 
-Think back to courses or workshops you really liked or didn't like.
+Think back to courses or workshops you really liked or did not like.
 
 How did those courses start on the first day? Were you confident in the
 instructors ability to teach the course? Did you feel like the instructor was
-enthusiastic about the course and invested in the students outcomes? Was it clear
+enthusiastic about the course and invested in the learners outcomes? Was it clear
 what you were going to be learning? Were you excited to get the chance
 to be learning about those things? Or did you leave that first day thinking
-the instructor was uninterested, that you weren't the students they wanted to
+the instructor was uninterested, that you were not the learners they wanted to
 be teaching or you had no idea what the course was supposed to be about?
 
 ---
@@ -19,8 +19,8 @@ be teaching or you had no idea what the course was supposed to be about?
 ## Why is the environment important
 
 
-- In Software Carpentry and Data Carpentry we're teaching not only a set of skills,
-but at least as importantly we're trying to empower learners and give them the confidence to use
+- In Software, Data, and Library Carpentry we are teaching not only a set of skills,
+but at least as importantly we are trying to empower learners and give them the confidence to use
 these tools and learn more on their own.
 
 - Can help reduce stereotype threat by letting people think about their strengths
@@ -40,7 +40,7 @@ Things here are adapted from: Eberly Center for Teaching Excellence & Educationa
 
 After the introduction
 
-Students should:
+Learners should:
 - believe in your competence to teach the workshop
 - be able to predict the type of instruction
 - know what the learning objectives are (what will be taught)
@@ -58,11 +58,11 @@ To meet these objectives an introduction should have 8 components
 - Orchestrate positive first impressions
 - Introduce yourself effectively
 - Clarify learning objectives and expectations
-- Help students learn about each other
+- Help learners learn about each other
 - Set the tone for the workshop
-- Collect baseline data on students' knowledge and motivation
-- Whet students' appetite for workshop content
-- Inform students of workshop requirements
+- Collect baseline data on learners' knowledge and motivation
+- Whet learners' appetite for workshop content
+- Inform learners of workshop requirements
 
 ---
 
@@ -75,7 +75,7 @@ To meet these objectives an introduction should have 8 components
   'Welcome!' or 'Yay, data' or even a question for people to think about.
 
 - **Your use of the few minutes before class.**  
-Greeting the students as they enter the classroom communicates approachability. Frantically arriving right on time or even late communicates disorganization, and so on.
+Greeting the learners as they enter the classroom communicates approachability. Frantically arriving right on time or even late communicates disorganization, and so on.
 
 ---
 
@@ -85,20 +85,20 @@ You want to convey
 - capability of teaching the materials
 - your accessibility to learners
 - your shared experience with the learners
-- why you're excited about teaching SWC/DC
-- don't want to come across as too 'expert' so that you can't relate to the audience
-- even if it's your first time teaching, you don't need to say that :)
+- why you are excited about teaching SWC/DC
+- do not want to come across as too 'expert' so that you cannot relate to the audience
+- even if it is your first time teaching, you do not need to say that :)
 
 ---
 
 ### Clarify learning objectives and expectations
 
 - let people know what the prerequisites are
-For Data Carpentry, no prior computational experience is required and for
+For Data and Library Carpentry, no prior computational experience is required and for
 Software Carpentry it can vary.
 - highlight the main aspects of the schedule
 - highlight the learning objectives
-- highlight the approach we're using - hands on! - and that all materials
+- highlight the approach we are using - hands on! - and that all materials
 are open and freely available to use, develop or share
 - code of conduct - basically be respectful
 - how can people offer feedback or get help
@@ -107,20 +107,20 @@ are open and freely available to use, develop or share
 Share some advice for success in your course (give it a try!) and let them know you
 are confident in their success as long as they are trying new things.
 
-"If you're not falling, you're not learning."
+"If you are not falling, you are not learning."
 
 ---
 
-### Help students learn about each other
+### Help learners learn about each other
 
 Foster a collaborative environment
 
-Have students introduce themselves to each other.
+Have learners introduce themselves to each other.
 
 One idea:  
-Have everyone turn to a partner and introduce themselves with their name, one word about their research 'microbes', 'dogs', 'vectors', 'stars' and a thing they're proud of that they made. What
+Have everyone turn to a partner and introduce themselves with their name, one word about their research 'microbes', 'dogs', 'vectors', 'stars' and a thing they are proud of that they made. What
 they made could be a bookshelf, a curry, a 3D plot, a piece of software, their bed this morning, just
-something they did that they're proud of. Studies have shown that encouraging people to think about their characteristics, skills, values, or roles that they value or view as important can help reduce
+something they did that they are proud of. Studies have shown that encouraging people to think about their characteristics, skills, values, or roles that they value or view as important can help reduce
 the effects of stereotype threat. (We have no actual evidence this particular exercise helps, but it
   is along these lines)
 
@@ -128,31 +128,31 @@ the effects of stereotype threat. (We have no actual evidence this particular ex
 
 ### Set the tone for the workshop
 
-The way you engage students at the beginning sends powerful messages about the level of involvement and interaction you expect from them.
+The way you engage learners at the beginning sends powerful messages about the level of involvement and interaction you expect from them.
 
 - get in to introductions and interactions right away, since this is an interactive workshop
-- establish a culture of feedback. Let students know you are interested in how they experience the course and in any suggestions they have.
+- establish a culture of feedback. Let learners know you are interested in how they experience the course and in any suggestions they have.
 
 ---
 
-### Collect baseline data on students' knowledge and motivation
+### Collect baseline data on learners' knowledge and motivation
 
 - you will already have information from the pre-assessment survey on this,
-so you won't need to survey the audience, but look through the survey data
+so you will not need to survey the audience, but look through the survey data
 before you arrive so you know who your audience is
 
 ---
 
-### Whet students' appetite for workshop content
+### Whet learners' appetite for workshop content
 
-They're already at the workshop, so it might seem unnecessary to motivate them to be there,
-but it is a great chance to stimulate interest about the workshop and to activate relevant prior knowledge students have about the material.
+They are already at the workshop, so it might seem unnecessary to motivate them to be there,
+but it is a great chance to stimulate interest about the workshop and to activate relevant prior knowledge learners have about the material.
 
 ---
 
-### Inform students of workshop requirements
+### Inform learners of workshop requirements
 
-Let students know about any logistics for the days - lunch times, breaks, accessibility, etc.
+Let learners know about any logistics for the days - lunch times, breaks, accessibility, etc.
 
 ---
 
@@ -162,7 +162,7 @@ Let students know about any logistics for the days - lunch times, breaks, access
 - practice introducing yourself
 - serves as an icebreaker - an opportunity to meet other people in the workshop
 
-Get in a group of three with two other people you haven't met before.
+Get in a group of three with two other people you have not met before.
 Each person do a video introducing themselves and get feedback from the
 other two in the group. Your introduction should be just around a minute or two.
 
@@ -175,4 +175,4 @@ e.g. researchers who are mainly biologists with little computational experience
   - capability of teaching the materials
   - your accessibility to learners
   - shared experience
-- Why you're excited about teaching SWC/DC
+- Why you are excited about teaching SWC/DC

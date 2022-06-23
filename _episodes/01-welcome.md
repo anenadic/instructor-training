@@ -1,134 +1,84 @@
 ---
 title: "Welcome"
 start: true
-teaching: 10
-exercises: 5
+teaching: 15
+exercises: 15
 questions:
-- "Who are Data and Software Carpentry and how do we approach teaching?"
+- "What is The Carpentries and how do we approach teaching?"
 - "What should you expect from this workshop?"
 objectives:
-- "Introduce yourself to your fellow workshop participants."
-- "Describe what will and will not be covered in this workshop."
-- "Understand that the Carpentries are communities of volunteers who develop lessons and teach workshops on basic computing and data skills for researchers."
+- "Identify common ground with some of your fellow workshop participants."
+- "Understand a general structure and core goals of The Carpentries."
+- "Predict what will and will not be covered in this workshop."
+- "Know where to find The Carpentries Code of Conduct and how to report an incident."
 keypoints:
-- "Software and Data Carpentry are communities of practice. We strive to provide a welcoming environment for all learners and take our Code of Conduct seriously."
+- "The Carpentries is a community of practice. We strive to provide a welcoming environment for all learners and take our Code of Conduct seriously."
 - "This episode sets the stage for the entire workshop. The introductions and exercises help everyone begin to develop a relationship and trust."
-- "This workshop will cover general teaching pedagogy and how it applies specifically to Software and Data Carpentry."
-- "Learner motivation and prior knowledge vary widely, but can be assessed with a quick multiple choice question."
+- "This workshop will cover evidence-based teaching practices and how they apply specifically to The Carpentries."
+- "Learner motivation and prior knowledge vary widely, and can be quickly assessed with a multiple choice question."
 ---
+
+> ## Pronouns and Names
+> 
+> Using correct names and pronouns (e.g. "she/her") is important for setting a respectful tone. Learning these is hard to
+> do quickly, so we recommend displaying it prominently during the workshop. 
+> 
+> In an online workshop, give everyone a moment to update their display name to reflect how they would like to be addressed. 
+> 
+> At an in-person event, we recommend supplying name tags and markers, or using plain paper to create table-displayed name placards.
+> 
+> Note that pronouns are personal and some participants might prefer not to share them.
+> Do not force people to share their pronouns.
+{: .discussion}
+
+
+![Photograph of an icebreaker ship](../fig/Icebreaker_Stephan_Jantzen_in_Stadthafen_Rostock_2010-12-28_perspective_correction-GD.jpg){: width="600px" }  
+A different kind of "icebreaker." Photo credit: Grand-Duc, Wikipedia, http://en.wikipedia.org/wiki/User:Grand-Duc
+
+## Before The Course Begins
+
+> ## Getting to know each other
+>
+> If the Trainer has chosen an [icebreaker question]({{ site.training_site }}/icebreakers/index.html),
+> participate by writing your answers in the Etherpad.
+{: .challenge}
+
 
 ## Code of Conduct
 
-To make clear what is expected, everyone participating in Software Carpentry and Data Carpentry activities is required
-to conform to our Code of Conduct. This Code of Conduct applies to all spaces managed by Software Carpentry
-and Data Carpentry including, but not limited to workshops, email lists, online forums and on GitHub. Please review
-[the Code of Conduct](https://software-carpentry.org/conduct/) to familiarise yourself with it.
+To make clear what is expected, everyone participating in The Carpentries activities is required
+to abide by our [Code of Conduct][coc]. Any form of behaviour to exclude, intimidate, 
+or cause discomfort is a violation of the Code of Conduct. In order to foster a positive and professional 
+learning environment we encourage you to:  
+* Use welcoming and inclusive language
+* Be respectful of different viewpoints and experiences
+* Gracefully accept constructive criticism
+* Focus on what is best for the community
+* Show courtesy and respect towards other community members
+
+If you believe someone is violating the Code of Conduct, we ask that you report it to The Carpentries 
+Code of Conduct Committee by completing [this form](https://goo.gl/forms/KoUfO53Za3apOuOK2).
 
 ## Introductions
+Hello everyone, and welcome to The Carpentries
+instructor training.  We are very pleased to have you with us.
 
-> Introductions set the stage for learning.
-> — Tracy Teal, Executive Director, Data Carpentry
-{: .quotation}
-
-Hello everyone, and welcome to the Data Carpentry and Software Carpentry
-instructor training.  We're very pleased to have you with us.
-
-> ## Information for Today's Trainers
+> ## Today's Trainers
 >
-> To begin your class, each Trainer should give a brief introduction that will convey (a) their capacity to teach the material, (b) accessibility/approachability, (c) desire for student success, and (d) enthusiasm. Tailor your introduction to the learners’ skill level so that you convey competence (without seeming too advanced) and demonstrate that you can relate to the learners. Throughout the workshop, continually demonstrate that you are interested in student progress and that you are enthusiastic about the topics.
+> To begin class, each Trainer should give a brief introduction of themselves.
+>
+> (For some guidelines on introducing yourself, see some content from
+> later in the workshop: [Workshop Introductions](https://carpentries.github.io/instructor-training/23-introductions/index.html))
 {: .discussion}
 
-> ## Information for Today's Learners
+Now, we would like to get to know all of you.
+
+> ## Reviewing The Carpentries Experience and Goals
 >
-> 1. Add your name to the Etherpad
-> 1. Introduce yourselves (preferably verbally)! In your introduction, (a) explain your work in 3 words and (b) say something you are proud of (not necessarily related to research or teaching).
-{: .discussion}
-
-> ## Our First Exercise
+> For the multiple choice questions below, please place an "X" next to the response(s) that best apply to you. Then find yourself a spot 
+> in the Etherpad below to write a short response to the last question.
 >
-> In the Etherpad, write down your name, the best class you ever
-> took (or one class from your top ten, if you can't decide), and
-> what made it so great.
-> This exercise should take about 2 minutes.
-{: .challenge}
-
-Most of you are probably here because you have attended or helped at
-a Software or Data Carpentry workshop.  To make sure everyone has the
-same context, we'll give a brief overview of the Software and Data
-Carpentry organizations.
-
-## A Brief Overview of the Carpentries
-
-Software and Data Carpentry are
-both communities of volunteer researchers, educators, and more who develop
-lessons and teach two day workshops on basic computing and data skills for
-researchers.  Software Carpentry focuses on helping researchers develop foundational 
-computational skills; Data Carpentry focuses on helping
-researchers work effectively with their data through its lifecycle.
-
-The main goal of these organizations is not to teach specific skills, per se - although those
-are covered - but rather, to convey best practices that will enable
-researchers to be more productive and do better research.
-
-
-## Instructor Training Workshop Overview
-
-We will not be going
-over the workshop content in detail (although you will get familiarity with
-some of the content through the exercises), but instead we will
-focus on developing teaching skills that are broadly
-useful across all of our lessons. This two-day training is the first step in becoming a certified
-Software and/or Data Carpentry instructor.
-The follow-up steps for certification will require that you dig into the workshop content yourself. We'll talk about that more tomorrow afternoon.
-
-To orient yourself, there is a schedule on the workshop webpage which is linked through this workshop's Etherpad.
-
-### How Learning Works
-
-One of our main emphases will be discussing the "best practices" of teaching. We
-will be introducing you to a handful of key educational research
-findings and demonstrating how they can be used to help people learn better and faster.
-
-### Building Teaching Skill
-
-Just like learning a new language, a musical instrument, 
-or a sport, teaching is a skill that requires practice and feedback.  
-We will have many opportunities to practice and give each other feedback throughout this workshop.
-We welcome questions and dialogue
-at any point. We'll be using the the Etherpad to help facilitate discussion. 
-Please feel free to ask questions verbally or to put them into the notes or chat box 
-of the Etherpad.
-
-### Creating a Positive Learning Environment
-
-One part of making this a productive two days for all of us is a
-community effort to treat one another with kindness and respect.  This
-training, as in all Software/Data Carpentry workshops is subject to
-the Software and Data Carpentry Code of Conduct.  We will be able to
-give our best effort (and have the most fun!) if everyone abides by these guidelines. 
-We will also be discussing and practicing teaching techniques to create a positive and 
-welcoming environment in your classrooms.
-
-### Carpentry History and Culture
-
-We will be introducing you to the teaching practices that have been
-adopted by the Software and Data Carpentry communities, and our
-overall philosophy and procedures in order
-to prepare you to teach Carpentry workshops.
-The greatest asset of the Carpentries is people like
-yourselves - people who want to help researchers learn about these ideas
-and share their own experience and enthusiasm.  We hope that this training
-gives everyone a chance to meet new people and share ideas.
-
-## Assessing Trainee Motivation and Prior Knowledge
-
-It's important to first assess the prior knowledge of the workshop
-participants because this will influence (to some extent) how you
-motivate the activities and how you communicate with the attendees.
-
-> ## Background
->
-> *Have you ever participated in a Software Carpentry or Data Carpentry Workshop?*
+> *Have you ever participated in a Software Carpentry, Data Carpentry, or Library Carpentry Workshop?*
 >
 > 1.  Yes, I have taken a workshop.
 > 2.  Yes, I have been a workshop helper.
@@ -141,35 +91,115 @@ motivate the activities and how you communicate with the attendees.
 > 1.  I have been a graduate or undergraduate teaching assistant for a university/college course.
 > 2.  I have not had any teaching experience in the past.
 > 3.  I have taught a seminar, workshop, or other short or informal course.
-> 4.  I have been the instructor-of-record for my own university/college course.
+> 4.  I have been the primary or responsible teacher for a university/college course.
 > 5.  I have taught at the primary or secondary education level.
-> 6.  I have taught informally through outreach programs, hackathons, laboratory demonstrations, and similar activities.
+> 6.  I have taught informally through outreach programs, hackathons, libraries, laboratory demonstrations, and similar activities.
 >
-> *Which of these questions assesses flaws in a student's mental model of a domain? You don't need to provide answers for these questions.*
+> **Why are you taking this course? What goals do you have for today and tomorrow?**
 >
->     1. I'm not sure what a mental model is.
->     2. "In Python, what is the expected output for the following statement: 1 + '2'"
-> 	(a) '12'  
-> 	(b) TypeError  
-> 	(c) ‘3’  
-> 	(d) 3  
->     3. "Rate your experience with the R programming language."
-> 	(a) never used it  
-> 	(b) beginner  
-> 	(c) intermediate  
-> 	(d) expert  
->     4. "What does the Unix command 'cut' do?"
-> 	(a) Extracts sections from each line of input.  
-> 	(b) Sorts fields of a line  
-> 	(c) Searches the input file for lines containing a match to a pattern  
-> 	(d) Removes a given input from a line  
->
-> This exercise should take about 3 minutes.
-{: .discussion}
+> This exercise should take about 5 minutes for responses, with an optional 10 for additional discussion as time permits.
+{: .challenge}
 
-Now that we have a better idea of everyone's prior knowledge and
-familiarity with some of the key Carpentry teaching practices, we're
-ready to begin our training. Our goal is that by the end, you will
+To make sure everyone has the
+same context, we will give a brief overview of The Carpentries
+organization before starting the training.
+
+## A Brief Overview of The Carpentries
+
+![Image of action figures in a workshop with Instructor, Co-Instructor, Helper, and Sticky Notes labeled](../fig/Scene_1_blue_stickies_labeled.jpeg){: width="900px" }
+
+Software Carpentry, Data Carpentry, and Library Carpentry
+are official Lesson Programs of The Carpentries.
+The Carpentries is a **global community of volunteer researchers, educators, and others** oriented around
+improving basic computing and data skills for
+researchers through intensive, short-format workshops.
+* Software Carpentry focuses on helping researchers develop foundational
+computational skills
+* Data Carpentry focuses on helping
+researchers work effectively with their data through its lifecycle
+* Library Carpentry focuses on teaching data skills to people working in library- and information-related roles.
+
+The main goal of The Carpentries is not to teach specific skills, per se - although those
+are covered - but rather, to convey best practices that will enable
+researchers to be more productive and do better research.
+
+## Instructor Training Workshop Overview
+
+The goal of this training is to provide you with the skills and information you need
+to become a certified Carpentries Instructor. Our expectations of certified
+Instructors is that they:
+
+- be familiar with and understand **how to apply research-based teaching principles**,
+especially as they apply to The Carpentries audience.
+- understand the **importance of a respectful and inclusive classroom environment**; commit to
+creating such an environment; and be able to
+identify and implement The Carpentries policies and general practices to accomplish this.
+- **practice and develop skills** in the teaching methods used in The Carpentries workshops.
+- learn enough about The Carpentries organisation to **know where to go for help**,
+how to start organizing a workshop, and how to get involved with community activities.
+
+These four goals are broken down into four main themes of content:
+
+### How Learning Works
+
+One of our main emphases will be discussing the "best practices" of teaching. We
+will be introducing you to a handful of key educational research
+findings and demonstrating how they can be used to help people learn better and faster.
+
+### Building Teaching Skill
+
+Just like learning a new language, a musical instrument,
+or a sport, teaching is a skill that requires practice and feedback.
+We will have many opportunities to practice and give each other feedback throughout this workshop.
+
+### Creating a Positive Learning Environment
+
+One part of making this a productive experience for all of us is a
+community effort to treat one another with kindness and respect.  The [Code of Conduct][coc] 
+is one piece of this. We will also be discussing and practicing teaching techniques to create a positive and
+welcoming environment in your classrooms, and will spend some time talking about why this is important.
+
+### The Carpentries History and Culture
+
+In addition to the teaching practices and philosophy that have been
+adopted by The Carpentries community, it is helpful to become familiar 
+with our community structure and organisational procedures as you 
+prepare to join our Instructor community.
+The greatest asset of The Carpentries is people like
+you - people who want to help researchers learn new skills 
+and share their own experience and enthusiasm.  Meeting your fellow trainees and
+Instructor Trainers at today's event is your first step into The Carpentries community.
+
+## What We Leave Out
+
+We will **not** be going over Data Carpentry, Library Carpentry, or Software Carpentry workshop content in detail (although you will gain
+familiarity with some of the content through the exercises),
+This workshop is a significant requirement for becoming a certified Carpentries Instructor.
+The additional steps for certification, called _Checkout_, will require that you dig into the workshop content yourself. We will talk about that more tomorrow afternoon.
+
+We also do not discuss *how* to develop lessons, although we do mention some aspects of lesson design. We include this information to help you as an instructor identify the important components of lessons for high impact, inclusive teaching. The Carpentries now has a growing subcommunity dedicated to lesson development, 
+along with [its own onboarding curriculum][lesson-dev]. For more on lesson development, see [The Carpentries website][lesson-dev-web].
+
+If there is a particular topic that you would like us to address, let the Trainers
+know.
+
+## What Questions Do You Have?
+
+We hope and expect that you will have many questions during this training! Please do not
+keep them to yourself. If you find something unclear, chances are good that others will have the same question, too. 
+It is ok to ask even if you think you might have missed an answer already given
+(e.g. during a distracted moment or a dropped connection)!
+Depending on the time available, your Trainers may ask you to share your questions 
+verbally, in the Etherpad, or otherwise. 
+
+Now that we have a road map of what we are covering
+we are ready to begin our training. Our goal is that by the end, you will
 have acquired some new knowledge, confidence, and skills that you can
-use in your teaching practice in general and in teaching Carpentry
+use in your teaching practice in general and in teaching Carpentries
 workshops specifically.
+
+--------------------
+[coc]: https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html
+[form-coc]: https://goo.gl/forms/KoUfO53Za3apOuOK2
+[lesson-dev]: https://carpentries-incubator.github.io/study-groups/
+[lesson-dev-web]: https://carpentries.org/involved-lessons/
