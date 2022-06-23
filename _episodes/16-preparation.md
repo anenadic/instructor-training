@@ -4,9 +4,12 @@ block: "Building Teaching Skill"
 teaching: 20
 exercises: 25
 questions:
+- "How should I prepare to run a workshop?"
 - "How should I prepare to teach?"
+- "What to do after a workshop?"
 objectives:
 - "Create a profile for a learner in your workshop."
+- "Assign roles for the training team and make sure everyone knows that they are doing."
 - "Critically analyze a learning objective for your workshop."
 - "Identify checkpoints in a lesson for formative assessment."
 keypoints:
