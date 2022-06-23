@@ -2,31 +2,31 @@
 
 {% comment %}
   Display syllabus in tabular form.
-  Days are displayed if at least one episode has 'start = true'.
+  Sections are displayed if at least one episode has parameter 'section-start' set to 'true'.
 {% endcomment %}
 
 {% include manual_episode_order.html %}
 
 <div class="syllabus">
-  <h2 id="schedule">Sample Schedule</h2>
+  <h2 id="schedule">Schedule</h2>
 
-  {% assign day = 0 %}
-  {% assign multiday = false %}
+  {% assign section = 0 %}
+  {% assign multisection = false %}
   {% for lesson_episode in lesson_episodes %}
     {% if site.episode_order %}
       {% assign episode = site.episodes | where: "slug", lesson_episode | first %}
     {% else %}
       {% assign episode = lesson_episode %}
     {% endif %}
-    {% if episode.start %}{% assign multiday = true %}{% break %}{% endif %}
+    {% if episode.section-start %}{% assign multisection = true %}{% break %}{% endif %}
   {% endfor %}
   {% assign current = site.start_time %}
 
   <table class="table table-striped">
   <tr>
-    {% if multiday %}<td class="col-md-1"></td>{% endif %}
-    <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}"></td>
-    <td class="col-md-3"><a href="{{ relative_root_path }}{% link setup.md %}">Preparing for Training and Certification</a></td>
+    {% if multisection %}<td class="col-md-1"></td>{% endif %}
+<!--    <td class="{% if multisection %}col-md-1{% else %}col-md-2{% endif %}"></td>-->
+    <td class="col-md-3"><a href="{{ relative_root_path }}{% link setup.md %}">Prerequisites & Preparation</a></td>
     <td class="col-md-7">Things to know and do before your event</td>
   </tr>
   {% for lesson_episode in lesson_episodes %}
@@ -35,15 +35,15 @@
     {% else %}
       {% assign episode = lesson_episode %}
     {% endif %}
-    {% if episode.start %} {% comment %} Starting a new day? {% endcomment %}
-      {% assign day = day | plus: 1 %}
-      {% if day > 1 %} {% comment %} If about to start day 2 or later, show finishing time for previous day {% endcomment %}
+    {% if episode.section-start %} {% comment %} Starting a new section? {% endcomment %}
+      {% assign section = section | plus: 1 %}
+      {% if section > 1 %} {% comment %} If about to start section 2 or later, show finishing time for previous section {% endcomment %}
         {% assign hours = current | divided_by: 60 %}
         {% assign minutes = current | modulo: 60 %}
         <tr>
-          {% if multiday %}<td class="col-md-1"></td>{% endif %}
-          <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
-          <td class="col-md-3">Finish</td>
+          {% if multisection %}<td class="col-md-1"></td>{% endif %}
+<!--          <td class="{% if multisection %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>-->
+          <td class="col-md-3">&nbsp;</td>
           <td class="col-md-7"></td>
         </tr>
       {% endif %}
@@ -52,11 +52,10 @@
     {% assign hours = current | divided_by: 60 %}
     {% assign minutes = current | modulo: 60 %}
     <tr>
-      {% if multiday %}<td class="col-md-1">{% if episode.start %}Day {{ day }}{% endif %}</td>{% endif %}
-      <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
+      {% if multisection %}<td class="col-md-1">{% if episode.section-start %}Section {{ section }}{% endif %}</td>{% endif %}
+      <!--<td class="{% if multisection %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td> -->
       <td class="col-md-3">
-        {% assign lesson_number = lesson_number | plus: 1 %}
-	{{ lesson_number }}. <a href="{{ relative_root_path }}{{ episode.url }}">{{ episode.title }}</a>
+        {% assign lesson_number = lesson_number | plus: 1 %} {{ lesson_number }}. <a href="{{ relative_root_path }}{{ episode.url }}">{{ episode.title }}</a>
       </td>
       <td class="col-md-7">
         {% if episode.break %}
@@ -78,8 +77,8 @@
   {% assign hours = current | divided_by: 60 %}
   {% assign minutes = current | modulo: 60 %}
   <tr>
-    {% if multiday %}<td class="col-md-1"></td>{% endif %}
-    <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
+    {% if multisection %}<td class="col-md-1"></td>{% endif %}
+<!--    <td class="{% if multisection %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>-->
     <td class="col-md-3">Post-training survey</td>
     <td class="col-md-7">Please ask your Trainer for a custom link to your post-training survey at the end of the course.</td>
   </tr>
@@ -87,9 +86,9 @@
   {% assign hours = current | divided_by: 60 %}
   {% assign minutes = current | modulo: 60 %}
   <tr>
-    {% if multiday %}<td class="col-md-1"></td>{% endif %}
-    <td class="{% if multiday %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>
-    <td class="col-md-3">Finish</td>
+    {% if multisection %}<td class="col-md-1"></td>{% endif %}
+<!--    <td class="{% if multisection %}col-md-1{% else %}col-md-2{% endif %}">{% if hours < 10 %}0{% endif %}{{ hours }}:{% if minutes < 10 %}0{% endif %}{{ minutes }}</td>-->
+    <td class="col-md-3">&nbsp;</td>
     <td class="col-md-7"></td>
   </tr>
   </table>

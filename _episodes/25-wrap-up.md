@@ -1,5 +1,5 @@
 ---
-title: "Wrapping Up"
+title: "Workshop Wrap-up"
 teaching: 0
 exercises: 10
 questions:

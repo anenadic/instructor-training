@@ -1,23 +1,23 @@
 ---
 layout: page
-title: Preparing for Training and Certification
+title: Prerequisites & Preparation
 root: .
 training_site: https://carpentries.github.io/instructor-training
 ---
 ## Preparing for Your Training
-1. Please fill out our pre-workshop survey. Please refer to your pre-workshop email 
-for a custom link for your event. Your responses will help your Trainers understand 
+1. Please fill out our pre-workshop survey - this will be shared with you via email ahead of the training and will contain  
+a custom link for your Instructor Training event. Your responses will help your Trainers understand 
 your background and customize the training appropriately. They also assist The Carpentries 
 in understanding and reporting on our impact.
-3. Please go to the [Software Carpentry lessons page]({{ site.swc_site }}/lessons/), 
+2. Please go to the [Software Carpentry lessons page]({{ site.swc_site }}/lessons/), 
 the [Data Carpentry lessons page]({{ site.dc_site}}/lessons/), or the 
 [Library Carpentry lessons page]({{ site.lc_site}}/lessons/) choose one episode 
 (for recommendations, see the list below) and read through it carefully. 
-You will be asked to teach a 90 second introduction to this content during 
-the first half of the workshop, and will teach a 3 minute participatory segment 
-of its content twice during the second half of the workshop. Note that these 
-presentations are expected to be rough, not polished -- you should be familiar 
-with the content but please do not over-prepare. This preparation should take no more than 20-30 minutes.
+You will use this lesson as part of some exercises during training, more specifically:
+    - In one exercise, you will be asked to teach a 1.5 minute introduction to this lesson (but not to live code from its content)
+    - In another exercise, you will be asked to teach a 3 minute segment from the lesson using live coding or live teaching demonstration
+Note that both these mini teaching presentations are expected to be rough and not polished -- you should be familiar 
+with the lesson content but no need to over-prepare.
 4. Please read the following before the workshop begins:
  * ["The Science of Learning"]({{ page.training_site }}/files/papers/science-of-learning-2015.pdf)
  * ["The Carpentries Annual Report"](https://carpentries.org/files/reports/2021%20Carpentries%20Annual%20Report_Final.pdf)

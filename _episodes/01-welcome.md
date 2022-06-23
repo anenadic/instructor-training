@@ -1,6 +1,7 @@
 ---
-title: "Welcome"
+title: "Welcome & Introductions"
 start: true
+section-start: true
 teaching: 15
 exercises: 15
 questions:

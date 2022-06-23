@@ -1,6 +1,7 @@
 ---
 title: "Welcome Back"
 start: true
+section-start: true
 teaching: 5
 exercises: 5
 questions:

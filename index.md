@@ -7,10 +7,10 @@ redirect_from: "http://swcarpentry.github.io/instructor-training/"
 Welcome to The Carpentries Instructor Training curriculum! Originally released in 2016, this resource is collaboratively maintained and taught by The Carpentries Instructor Trainer community. Minor changes occur routinely; major updates are chronicled in our release history.
   
 Carpentries Instructor Training has the following goals:  
-* Introduce you to evidence-based teaching practices.
+* Introduce you to evidence-based teaching practices to help us improve how we teach people and help them learn better and faster.
 * Teach you how to create a positive environment for learners at your workshops.
-* Provide opportunities for you to practice and build your teaching skills.
-* Help you become integrated into the [Carpentries]({{ site.carpentries_site }}) community.
+* Provide opportunities for you to practice and build your teaching skills based on the research theory we cover.
+* Introduce you to various roles and activities and help you become integrated into the [Carpentries]({{ site.carpentries_site }}) community.
 * Prepare you to use these teaching skills in teaching [Carpentries workshops](https://carpentries.org/workshops/).
   
 Because we have only limited time, some things are beyond the scope of this training. We will not be learning:

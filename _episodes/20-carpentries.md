@@ -1,5 +1,5 @@
 ---
-title: "The Carpentries: How We Operate"
+title: "The Carpentries Workshop Operations"
 block: "The Carpentries"
 teaching: 20
 exercises: 25

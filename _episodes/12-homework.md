@@ -1,5 +1,5 @@
 ---
-title: "Wrap-Up and Homework"
+title: "Homework"
 teaching: 5
 exercises: 15
 questions:

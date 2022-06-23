@@ -1,5 +1,5 @@
 ---
-title: "Preparing to Teach"
+title: "Preparing for a Workshop"
 block: "Building Teaching Skill"
 teaching: 20
 exercises: 25

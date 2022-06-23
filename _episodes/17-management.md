@@ -1,5 +1,5 @@
 ---
-title: "Working With Your Team"
+title: "At the Workshop"
 block: "Building Teaching Skill"
 teaching: 30
 exercises: 40
