@@ -7,12 +7,13 @@ questions:
 - "What is cognitive load and how does it affect learning?"
 - "How can we design instruction to work with, rather than against, memory constraints?"
 objectives:
-- "Remember the quantitative limit of human memory." 
+- "Remember the quantitative limit of human working memory." 
 - "Distinguish desirable from undesirable cognitive load." 
 - "Evaluate cognitive load associated with a learning task."
 keypoints:
 - "Most adults can store only a few items in short-term memory for a few seconds before they lose them again."  
-- "Things seen together are remembered (or mis-remembered) in chunks."  
+- "Learning happens when new concepts are loaded and reinforced long enough in working memory (e.g. through practice and exercises) 
+to be transferred into long-term memory."  
 - "Cognitive load should be managed through guided practice to facilitate learning and prevent overload."
 - "Formative assessments can help to consolidate learning in long-term memory."
 ---

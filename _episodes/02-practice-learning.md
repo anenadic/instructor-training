@@ -5,12 +5,12 @@ teaching: 30
 exercises: 30
 questions:
 - "How do people learn?"
-- "Who is a typical Carpentries learner?"
-- "How can we help novices become competent practitioners?"
+- "Who is a typical learner at Carpentry workshops?"
+- "How can we best help novices acquire and improve their skills?"
 objectives:
-- "Compare and contrast the three stages of skill acquisition."
-- "Identify a mental model and an analogy that can help to explain it." 
-- "Apply a concept map to explore a simple mental model."
+- "Introduce different stages of skill acquisition."
+- "Explain a mental model and how it relates to learning." 
+- "Apply a concept map to visualise and explore a mental model."
 - "Understand the limitations of knowledge in the absence of a functional mental model."
 - "Create a formative assessment to diagnose a broken mental model."
 keypoints:

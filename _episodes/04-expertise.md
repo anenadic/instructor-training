@@ -1,19 +1,19 @@
 ---
-title: "Expertise and Instruction"
+title: "Expertise and Teaching"
 block: "How Learning Works"
 teaching: 20
 exercises: 25
 questions:
-- "Does subject expertise make someone a great teacher?"
-- "How are we (as Instructors) different from our learners and how does this impact our teaching?"  
+- "Does a subject expertise make someone a great teacher?"
+- "How are we (as instructors) different from our learners and how does this impact our teaching?"  
 objectives:
-- "Explain what differentiates an expert from a competent practitioner." 
+- "Explain what differentiates an expert from a novice and a competent practitioner." 
 - "Describe at least two examples of how expertise can help and hinder effective teaching."
 - "Identify strategies for becoming aware of your expert awareness gap."
 - "Demonstrate strategies for avoiding dismissive language."
 keypoints:
 - "Experts face challenges when teaching novices due to expert awareness gaps."
-- "Things that seem easy to us are often not experienced that way by our learners."
+- "Things that seem easy to experts are often not experienced that way by our learners."
 - "With practice, we can develop skills to overcome our expert awareness gaps."
 ---
 
