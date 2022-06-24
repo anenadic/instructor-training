@@ -1,6 +1,7 @@
 ---
 title: "Memory and Cognitive Load"
 block: "How Learning Works"
+section-start: true
 teaching: 20
 exercises: 25
 questions:

@@ -1,5 +1,5 @@
 ---
-title: "Welcome & Introductions"
+title: "Welcome"
 start: true
 section-start: true
 teaching: 15

@@ -1,7 +1,6 @@
 ---
 title: "Building Skill With Feedback"
 block: "Building Teaching Skill"
-section-start: true
 teaching: 10
 exercises: 10
 questions:
